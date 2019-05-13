@@ -19,7 +19,7 @@ WebDriver driver;
 	    driver.get("http://newtours.demoaut.com");
 		
 	}
-	
+	//class is used instead of Test
 	@AfterClass
 	public void closeBrowser() {
 		driver.close();
