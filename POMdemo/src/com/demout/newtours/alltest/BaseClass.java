@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
-public class BaseClass {
+public class BaseClass {                  //used as a base class to start and stop the browser
 WebDriver driver;
 	
 	@BeforeClass
